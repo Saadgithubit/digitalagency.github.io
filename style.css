@@ -60,6 +60,12 @@
     font-size: 20px;
     margin: 10px;
     font-weight: bold;
+    cursor: pointer;
+    transition: all ease-out 0.5s;
+}
+.list > li:hover{
+    color: #f7b062;
+    scale: 1.2;
 }
 .buy{
     position: relative;
@@ -68,6 +74,10 @@
     height: 60px;
     padding-top: 10px;
     
+}
+
+.buy:hover{
+    color: white !important;
 }
 .right{
     padding: 10px;
@@ -141,5 +151,10 @@
     border-radius: 30px;
     background-color: #f79c6d;
     color: white;
+    transition: all ease-in-out 0.5s;
+}
+
+.read:hover{
+    scale: 1.2;
 }
 
